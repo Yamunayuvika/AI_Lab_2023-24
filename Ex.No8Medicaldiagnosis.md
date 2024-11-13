@@ -2,7 +2,7 @@
 ### DATE: 19.09.2024                                                                           
 ### REGISTER NUMBER : 212221040183
 ### AIM: 
-Write a Prolog program to build a medical Diagnosis Expert System.
+Write a Prolog program to build a medical Diagnosis Expert System. 
 ###  Algorithm:
 1. Start the program.
 2. Write the rules for each diseases.
