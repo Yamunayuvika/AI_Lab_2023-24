@@ -1,4 +1,4 @@
-# Ex.No: 10 Learning – Use Supervised Learning  
+![image](https://github.com/user-attachments/assets/cce1a211-0980-4ae6-80f4-9eb0eb8b56c2)# Ex.No: 10 Learning – Use Supervised Learning  
 ### DATE:11-11-2024                                                                     
 ### REGISTER NUMBER : 212221040183
 ### AIM: 
@@ -296,6 +296,10 @@ from sklearn.metrics import classification_report
 
 
 ### Output:
+![image](https://github.com/user-attachments/assets/fef95b82-786c-4a3d-869e-76e400d0c6fe)
+
+![image](https://github.com/user-attachments/assets/1bc2e95e-e070-4051-a772-a807f16ff358)
+
 
 
 
