@@ -30,7 +30,12 @@ move(N,X,Y,Z) :-
     move(M,Z,Y,X).
 ```
 
+
+
+
+
 ### Output:
+
 ![image](https://github.com/user-attachments/assets/d219594e-6127-4a18-8ea6-3beed251c01e)
 
 ### Result:
