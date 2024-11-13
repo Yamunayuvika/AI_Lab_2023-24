@@ -1,5 +1,5 @@
 # Ex.No: 10  Logic Programming –  Simple queries from facts and rules
-### DATE: 6-11-2024                                                                          
+### DATE: 26-09-2024                                                                          
 ### REGISTER NUMBER : 212221040183
 ### AIM: 
 To write a prolog program to find the answer of query. 
@@ -45,18 +45,47 @@ Consider the following facts and represent them in predicate form: <br>
 Convert the facts in predicate form to clauses and then prove by resolution: “Steve likes BK301 course”<br> 
 
 ### Program:
+likes(steve, X) :-
+ easy_course(X).
+hard_course(science).
+easy_course(X) :-
+ in_department(X, have_fun).
+in_department(bk301, have_fun).
 
 
 ### Output:
+![image](https://github.com/user-attachments/assets/c69a7072-29fc-4a43-a280-547eac23e81b)
+
 
 ### Task 3:
 Consider the statement <br> 
 “This is a crime for an American to sell weapons to hostile nations. The Nano , enemy of America has some missiles and its missiles were sold it by Colonal West who is an American” <br> 
 Convert to Clause form and prove west is criminal by using Prolog.<br> 
 ### Program:
+criminal(X):-
+    american(X),
+    weapon(Y),
+    hostile(Z),
+    sells(X,Y,Z).
+
+weapon(Y):-
+    missile(Y).
+
+hostile(Z):-
+    enemy(Z,america).
+
+sells(west,Y,nano):-
+    missile(Y),
+    owns(nano,Y).
+missile(m).
+owns(nano,m).
+enemy(nano,america).
+american(west).
 
 
 ### Output:
+![329329143-0d91172b-9b7c-40ad-8560-1545a4c81656](https://github.com/user-attachments/assets/08d3e20c-f485-4e8a-a1b4-5880610cb16e)
+
 
 ### Result:
 Thus the prolog programs were executed successfully and the answer of query was found.
